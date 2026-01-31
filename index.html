@@ -13,7 +13,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Preconnect to external resources -->
 <link rel="preconnect" href="https://cdn.tailwindcss.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,7 +45,6 @@ h1, h2, h3, .heading {
   letter-spacing: -0.02em;
 }
 
-/* Optimized gradient background */
 .gradient-bg {
   position: fixed;
   inset: 0;
@@ -62,7 +60,6 @@ h1, h2, h3, .heading {
   50% { background-position: 100% 50%; }
 }
 
-/* Optimized Aurora effect */
 .aurora {
   position: fixed;
   inset: 0;
@@ -123,7 +120,6 @@ h1, h2, h3, .heading {
   box-shadow: 0 16px 48px rgba(111, 0, 255, 0.2);
 }
 
-/* Optimized glow button */
 .glow-btn {
   background: linear-gradient(135deg, var(--primary), var(--accent));
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -147,7 +143,6 @@ h1, h2, h3, .heading {
   transform: translateY(-2px);
 }
 
-/* Optimized loader */
 #loader {
   position: fixed;
   inset: 0;
@@ -188,7 +183,6 @@ h1, h2, h3, .heading {
   50% { opacity: 1; }
 }
 
-/* Navbar */
 .navbar-glass {
   background: rgba(10, 10, 10, 0.8);
   backdrop-filter: blur(16px);
@@ -207,7 +201,6 @@ h1, h2, h3, .heading {
   object-fit: contain;
 }
 
-/* Text gradients */
 .text-gradient {
   background: linear-gradient(135deg, #fff 0%, rgba(255, 255, 255, 0.7) 100%);
   -webkit-background-clip: text;
@@ -222,7 +215,6 @@ h1, h2, h3, .heading {
   background-clip: text;
 }
 
-/* Optimized floating animation */
 @keyframes floating {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-15px); }
@@ -232,7 +224,6 @@ h1, h2, h3, .heading {
   animation: floating 3s ease-in-out infinite;
 }
 
-/* Reduced icon glow */
 .icon-glow {
   filter: drop-shadow(0 0 8px rgba(111, 0, 255, 0.5));
   transition: filter 0.2s ease;
@@ -284,7 +275,6 @@ h1, h2, h3, .heading {
   }
 }
 
-/* Content peek gradient */
 .content-peek {
   position: absolute;
   bottom: 0;
@@ -299,25 +289,20 @@ h1, h2, h3, .heading {
 
 <body class="text-gray-100">
 
-<!-- Loader -->
 <div id="loader">
   <img src="icono.png" alt="CoreStudios Logo">
   <span>CoreStudios</span>
 </div>
 
-<!-- Gradient Background -->
 <div class="gradient-bg"></div>
 
-<!-- Aurora Effect -->
 <div class="aurora">
   <div class="aurora-blob"></div>
   <div class="aurora-blob"></div>
 </div>
 
-<!-- Particles -->
 <div id="particles"></div>
 
-<!-- Navbar -->
 <nav class="navbar-glass fixed top-0 w-full z-50">
   <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
     <div class="logo-container">
@@ -333,7 +318,6 @@ h1, h2, h3, .heading {
   </div>
 </nav>
 
-<!-- Hero Section - Adjusted height to show content below -->
 <section class="min-h-[90vh] flex flex-col justify-center items-center text-center px-6 pt-32 pb-24 relative z-10">
   <div class="floating mb-8" data-aos="fade-up">
     <div class="inline-block px-4 py-2 rounded-full border border-purple-500/30 bg-purple-500/10 backdrop-blur-sm text-sm font-medium text-purple-300 mb-6">
